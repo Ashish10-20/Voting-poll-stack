@@ -8,7 +8,11 @@ When a poll closes (time or admin toggle), voters can see final results as a sta
 - **Backend (Render):** https://vote-polling-pvcc.onrender.com
 
 ---
+## 🎥 Demo Video
 
+Watch the complete working demo of the **Poll & Voting App (MERN Stack)** here 👇  
+
+🔗 **[Click to Watch Demo Video](https://drive.google.com/file/d/1yofsnDZYtjjYXuC7Uv0sgcHFfAzxYXYO/view?usp=sharing)**  
 ## ⚙️ Setup & Installation
 
 ```bash
