@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5001/api", // backend base URL
+  baseURL: "https://vote-polling-pvcc.onrender.com/api", // ✅ exact backend render URL
 });
 
 export default api;
