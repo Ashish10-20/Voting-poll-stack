@@ -16,7 +16,10 @@ app.use(express.json());
 // ✅ CORS — make sure NO trailing slash in the Netlify URL
 app.use(
   cors({
-    origin: ["https://vote-poll-stack.netlify.app"], // ✅ FIXED
+    origin: [
+      "https://vote-poll-stack.netlify.app", // ✅ Netlify frontend
+      "http://localhost:5173" // ✅ Local testing ke liye
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
